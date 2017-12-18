@@ -1,0 +1,266 @@
+/*
+* @Author: 阿杜
+* @Date:   2017-11-25 20:12:31
+* @Last Modified by:   阿杜
+* @Last Modified time: 2017-11-25 22:48:24
+*/
+@import url('base.css');
+.toubushang{
+	width: 100%;
+	height: 78px;
+	background: #ACCCE9;
+	border-top: 4px solid #000;
+	border-bottom:1px solid #fff;
+}
+.logo{
+	width: 130px;
+	height: 60px;
+	/* background: green; */
+	float: left;
+	margin-left: 180px;
+	margin-top: 13px;
+	
+}
+.logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.logo:hover img{
+	transform: rotate(360deg);
+	transition: all 2s;
+}
+.wenzi{
+	width: 330px;
+	height: 60px;
+	/* background: yellow; */
+	float: left;
+	margin-left: 550px;
+	margin-top: 13px;
+	font-family: "微软雅黑","宋体";
+	font-weight: bold;
+}
+.zi1{
+	width: 200px;
+	height: 18px;
+	/* background: pink; */
+	float: left;
+	margin-top: 9px;
+	margin-left: 4px;
+	font-size: 16px;
+	color: #355469;
+	font-family: "微软雅黑","宋体";
+
+}
+
+.zi2{
+	width: 200px;
+	height: 18px;
+	/* background: pink; */
+	float: left;
+	margin-top: 9px;
+	margin-left:106px;
+	font-size: 16px;
+	color: #355469;
+	font-family: "微软雅黑","宋体";
+
+}
+.daohanglan{
+	width: 100%;
+	height: 50px;
+	background: #3E7EBA;
+	border-bottom: 1px solid #000;
+
+}
+.daohangnei{
+	width: 986px;
+	height: 50px;
+	background: pink;
+	margin: 0 auto;
+
+}
+.neikuang{
+	width: 986px;
+	height: 50px;
+	background: #558dc3;
+	margin: 0 auto;
+}
+
+.anniu a{
+	width: 92px;
+	height: 48px;
+	background: #558DC3;
+	float: left;
+	margin-top: 1px;
+	margin-left: 4px;font-family: "微软雅黑","宋体";
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	font-family: "微软雅黑","宋体"; 
+	font-size: 14px;
+}
+.anniu:hover a{
+	background:#fdfdfd;
+	color: #26436d;
+	font-weight: bold;
+	
+}
+
+.tukuang{
+	width: 100%;
+	height: 240px;
+	background: #DAE4EE;
+	
+}
+.kuang{
+	width: 986px;
+	height: 240px;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.kuang img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	
+}
+.kuang:hover img{
+	color:rgba(0,0,0,0.9);
+	opacity: 0.9; 
+	transition: 0.2s;
+}
+.zhongjian{
+	width: 100%;
+	height: 2703px;
+	background: #ebebeb;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.zhongjian .zjk{
+	width: 980px;
+	height: 2703px;
+	/* background-color: red; */
+	margin: 0 auto;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.zhongjian .zjk .hengtiao{
+	width: 968px;
+	height: 35px;
+	background-color: #ccc;
+	margin: 0 auto;
+	font-family: "微软雅黑", "宋体";
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 35px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+}
+.zhongjian .zjk .hengtiao span{
+	margin-left: 10px;
+}
+.zhengw{
+	width: 870px;
+	height: 2598px;
+	/* background-color: green; */
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.zhengw .news{
+	font-family: "微软雅黑", "黑体", "宋体";
+    font-size: 22px;
+    /* background-color: #bccbda; */
+    color: #1d3d9a;
+    text-align: center;
+    float: left;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 55px;
+    margin-top: 47px;
+}
+.date{
+	font-family: "微软雅黑", "宋体";
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+.zwen{
+	width:870px;
+	height: 250px;
+	/* background-color: pink; */
+	margin: 0 auto;
+	font-size: 13px;
+	font-family: "微软雅黑", "宋体";
+	line-height: 40px;
+	text-indent: 20px;
+	text-align: left;
+	position: absolute;
+	color: #747474;
+	top: 180px;
+	left: 0;
+
+}
+.newt{
+	width: 800px;
+	height: 1066.66px;
+	/* background-color: yellow; */
+	margin: 0 auto;
+	position: absolute;
+	top: 430px;
+	left: 0;
+	right: 0;
+}
+.newt img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.newt1{
+	width: 800px;
+	height: 1066.66px;
+	/* background-color: yellow; */
+	margin: 0 auto;
+	position: absolute;
+	margin-top: 30px;
+	top: 1500px;
+	left: 0;
+	right: 0;
+}
+.newt1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dibu{
+	width: 100%;
+	height: 65px;
+	background: #d7d7d7;
+}
+.dibuwz{
+	width: 791px;
+	height: 47px;
+	background: #d7d7d7;
+	float: left;
+	margin-left:258px;
+	margin-top: 15px;
+	font-size: 13px;
+	text-align: center;
+	color: #7d7da5;
+	font-family: "微软雅黑","宋体";
+
+}
