@@ -1,1 +1,2 @@
-https://lcggit.github.io/stable/
+字母游戏：https://lcggit.github.io/Code-game/
+企业站：https://lcggit.github.io/Code-game/
