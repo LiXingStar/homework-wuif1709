@@ -1,1 +1,6 @@
 https://forgjj.github.io/JS-star/12.14/table.html
+
+
+ 企业站 https://forgjj.github.io/WUIF1709-qiye/
+ 打字游戏 https://forgjj.github.io/JSstudy/12.18/game/dazi.html
+ 通讯录  https://forgjj.github.io/JSstudy/12.18/contact.html
