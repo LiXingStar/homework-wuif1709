@@ -1,0 +1,8 @@
+表格： https://wuyu1216.github.io/table/table.html
+留言板： https://wuyu1216.github.io/liuyan/index.html
+悬浮窗： https://wuyu1216.github.io/float/xuanfuchuang.html
+放大镜： https://wuyu1216.github.io/fangdajing/fangda.html
+
+企业站： https://wuyu1216.github.io/qiye/shouye.html
+通讯录： https://wuyu1216.github.io/tongxunlu/
+打字游戏: https://wuyu1216.github.io/daziyouxi/dazi.html
