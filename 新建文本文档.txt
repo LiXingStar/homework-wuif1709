@@ -1,6 +1,5 @@
-https://forgjj.github.io/JS-star/12.14/table.html
-
-
- 企业站 https://forgjj.github.io/WUIF1709-qiye/
- 打字游戏 https://forgjj.github.io/JSstudy/12.18/game/dazi.html
- 通讯录  https://forgjj.github.io/JSstudy/12.18/contact.html
+  倒计时		https://forgjj.github.io/JSstudy/12.20/daojishi10.html
+  多边形		https://forgjj.github.io/JSstudy/12.20/duobianxing.html
+  多个圆		https://forgjj.github.io/JSstudy/12.20/yuan.html
+  转盘		https://forgjj.github.io/JSstudy/12.20/zhuanpan.html
+  距圣诞倒计时	https://forgjj.github.io/JSstudy/12.20/12.20.html
