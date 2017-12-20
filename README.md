@@ -5,3 +5,9 @@ https://hlhsdmsmy.github.io/lianxi/index3.html
 
 企业站：https://hlhsdmsmy.github.io/qiye/
 
+百分比：https://hlhsdmsmy.github.io/loading/index.html
+
+倒计时：https://hlhsdmsmy.github.io/daojishi/date.html
+
+四边形：https://hlhsdmsmy.github.io/sibianxing/index.html
+
