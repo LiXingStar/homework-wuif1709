@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		span{
+			font-size: 60px;
+			font-family: '微软雅黑';
+			font-weight:bold;
+			margin: 60px auto;
+			color: #000; 
+		}
+		div{
+			font-size: 40px;
+			font-family: '微软雅黑';
+			color: #ff6700;
+			text-align: center;
+			line-height: 400px;
+			margin: 60px auto;
+			background: url('img/bjin.jpg')no-repeat;
+			background-size: 100%;
+			width: 600px;
+			height: 800px;
+			border-radius: 5px;
+		}
+	</style>
+<body>
+	<div> <span></span>天<span></span>时<span></span>分<span></span>秒</div>
+</body>
+</html>
+<script>
+		// let date=new Date();
+		// let date=new Date('12/22/2017 14:30:00');
+		// let date=new Date(2017,11,24);
+		// date.getMonth();//0~11设置减一获取加一
+		// date.getDate(); //号
+		// date.getDay();  //周 
+		// date.getTime(); //时间  1970年当前时间
+		
+		
+		// let date=new Date();
+		// date.setMinutes(date.getMinutes()+10);
+		let spans=document.querySelectorAll('span');
+		setInterval(move,1000);
+		move();
+		function move(){
+		let date =new Date(2017,11,25,12,30,0);
+		let arr=[];		
+		let now=new Date();
+		
+		let time=Math.floor((date.getTime()-now.getTime())/1000);
+		let d=Math.floor(time/60/60/24);
+			arr.push(d);
+			time=time%(60*60*24)
+ 			let h=Math.floor(time/(60*60));
+ 			arr.push(h);
+ 			time%=(60*60);
+ 			let m=Math.floor(time/60);
+ 			arr.push(m);
+ 			let s=Math.floor(time%60);
+ 			arr.push(s);
+ 			spans.forEach((ele,index)=>{
+ 			ele.innerText=arr[index];
+ 		})
+ 			
+ 		
+ 		}
+		
+		
+        
+ 			// let time=document.setInterval(`arr.push(d,h,m,s)`),1000);
+ 			
+ 			
+		// date.setFullYear(2018);
+		// date.setMonth(11);
+		// date.setDate(25);
+		
+        // console.log(`${d}---${h}---${m}---${s}`);
+
+	</script>
