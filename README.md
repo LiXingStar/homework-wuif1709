@@ -8,3 +8,7 @@
 打字游戏：https://wolf-wh.github.io/dazi/
 
 企业网站：https://wolf-wh.github.io/tongxunlus/
+
+画布：https://wolf-wh.github.io/daojishi/huabu.html
+
+倒计时：https://wolf-wh.github.io/daojishi/lian.html
