@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas</title>
+</head>
+<style>
+	canvas{
+		border: 1px solid #ff6700;
+	}
+</style>
+<body>
+	
+	<canvas width="300" height="400"></canvas>
+	<canvas width="300" height="400"></canvas>
+	<canvas width="300" height="400"></canvas>
+	<canvas width="300" height="400"></canvas>
+	
+</body>
+</html>
+<script>
+	
+		let c = document.querySelectorAll('canvas');
+		// let can = c.getContext("2d");
+
+	
+		
+		
+
+		//12圆
+		// 0     1        2
+		// PI  3/2PI    4/2PI
+		for(let i = 0;i<4;i++){
+			for(let j = 0;j<3;j++){
+				let can4 = c[0].getContext("2d");
+				let color = `rgb(${255-80*j},${250-85*i},0)`
+				let x = (j+1)*10 + (2*j+1)*40;
+				let y = (i+1)*10 + (2*i+1)*40;
+				let wise = i%2 == 0?false:true;
+				let PI = Math.PI
+				can4.beginPath();				
+				can4.arc(x,y,40,0,PI+(PI/2*j),wise);				
+				
+				if(i>1){
+					can4.fillStyle = color;
+					can4.fill();
+				}else{
+					can4.strokeStyle = color;
+					can4.stroke();
+				}
+			}
+		}
+
+		//笑脸
+		let can2 = c[2].getContext("2d");
+		can2.beginPath();
+		can2.moveTo(250,150);
+		can2.arc(150,150,100,0,Math.PI*2);
+		can2.moveTo(210,160);
+		can2.arc(150,160,60,0,Math.PI);
+		can2.moveTo(120,120);
+		can2.arc(100,120,20,0,Math.PI,true);
+		can2.moveTo(220,120);
+		can2.arc(200,120,20,0,Math.PI,true);
+		can2.strokeStyle="#00D2DC";
+		can2.stroke();
+		
+
+		//多边形
+		poly(6);
+		function poly(num){
+			let can3 = c[3].getContext("2d");
+			let r = 100;
+			let rad = 2 * Math.PI / num;
+            can3.beginPath();
+            can3.moveTo(150+r,200);
+            for(let i = 0;i<num;i++){
+                let x = 150 + r*Math.cos(rad*i);
+                let y = 200 + r*Math.sin(rad*i);
+                can3.lineTo(x,y);
+                can3.strokeStyle="#00D2DC";
+            }
+            can3.closePath();
+            can3.stroke();
+		}
+		
+
+		//百分比
+		// let can1 = c[1].getContext("2d");
+		// let a = 1
+		// let t = setInterval(move,100);
+		// function move(){
+		// 	let p = Math.PI*2/100;
+		// 	a++;
+		// 	can1.beginPath();
+		// 	can1.moveTo(250, 200);
+		// 	can1.arc(150,200,100,0,p*a)
+		// 	can1.clearRect(0,0,300,400)
+		// 	can1.stroke();
+			
+		// 	can1.fillText(a+'%',135,200)
+			
+		// 	if(a>=100){
+		// 		a=99;
+		// 	}
+			
+		// }
+		let can1 = c[1].getContext("2d");
+		let a=0;
+	    let t=setInterval(function(){
+	    	a++;
+	    let angle=2*Math.PI/100;
+	    let r=100;
+	    can1.clearRect(0, 0, 500,500);
+	    can1.beginPath();
+	    can1.lineWidth=2;
+	    can1.arc(145,200,r,0,angle*a);
+	    can1.strokeStyle="#00D2DC";
+	    can1.stroke();
+	    can1.closePath();
+	    // ctx.beginPath();
+	    can1.font='24px/30px serif';
+	    can1.textBaseLine='middle';
+	    can1.fillStyle="#00D2DC";
+	    can1.fillText(`${a}%`,120,210);
+	     if(a==100){
+	     	clearInterval(t);
+	     }
+
+	    },100);
+			
+
+		
+</script>

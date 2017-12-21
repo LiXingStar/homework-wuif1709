@@ -1,0 +1,153 @@
+/*
+* @Author: 阿杜
+* @Date:   2017-12-21 15:03:23
+* @Last Modified by:   阿杜
+* @Last Modified time: 2017-12-22 00:18:01
+*/
+/* *{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+canvas{
+	border: 1px solid #ccc;
+}
+header{
+	width: 100%;
+	height: 130px;
+	padding: 0 5%;
+	box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background: pink;
+    display: flex;
+    justify-content: flex-start;
+
+}
+header ul{
+	padding: 5px;
+	width:150px;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap; 
+}
+header ul li{
+	width: 65px;
+	height: 18px;
+	margin: 2px 5px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 5px;
+/* 	background:#ff6666; */
+/* 	border: 1px solid #ff6700;
+
+}
+section{
+	width: 100%;
+	height: calc(100% - 90px);
+	margin-top: 10px;
+}
+input{
+	width: 65px;
+	height: 18px;
+
+}
+style{
+	width: 65px;
+	height: 18px;
+
+}
+.shape{
+	width:200px;
+	height: 130px;
+} */ 
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: url('../img/1.jpg')no-repeat;
+	background-size: 100%;
+}
+.top{
+	width: 100%;
+	height: 20%;
+	background:url('../img/2.jpg')no-repeat;
+	background-size: 100%;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+
+.option,.shape,.style{
+	/* padding: 5px 8px; */
+	width: 220px;
+	height: 110px;
+	border: 2px solid #000;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -100px;
+	justify-content: space-around;
+	padding: 15px 0 8px 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.shape{
+	width: 450px;
+	height: 110px;
+	padding: 10px;
+}
+.shape > li{
+	padding:5px 8px;
+	margin-right: 5px;
+}
+.style{
+	width: 220px;
+	padding: 10px;
+}
+.style>li{
+	padding: 0 4px;
+	text-align: center;
+	line-height: 35px;
+}
+li{
+	padding: 5px 8px;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 3px;
+	margin-top: 1px;
+	cursor: pointer;
+	background: #ff6666;
+	color: #000;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+.hot{
+	border: 2px solid  #2285f4!important;
+	background: #ff6700;
+	font-weight: 600;
+}
+.con{
+	width: 100%;
+	height:calc(100% - 20%);
+}
+canvas{
+	border: 1px solid green;
+	background: #fff;
+	border-radius: 10px;
+	margin:50px 100px  0;
+}
+.iconfont{
+	padding-right: 8px;
+	color: #000;
+}
