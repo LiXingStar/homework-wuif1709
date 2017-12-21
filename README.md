@@ -11,3 +11,5 @@ https://hlhsdmsmy.github.io/lianxi/index3.html
 
 四边形：https://hlhsdmsmy.github.io/sibianxing/index.html
 
+画板：https://hlhsdmsmy.github.io/huaban/index.html
+
