@@ -12,3 +12,5 @@
 画布：https://wolf-wh.github.io/daojishi/huabu.html
 
 倒计时：https://wolf-wh.github.io/daojishi/lian.html
+
+画图工具：https://wolf-wh.github.io/huabu/
