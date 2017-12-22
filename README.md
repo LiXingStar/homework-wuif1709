@@ -10,3 +10,5 @@
 倒计时（12.20）：https://q15035395423.github.io/daojishi/index
 
 加载（12.20）：https://q15035395423.github.io/jiazai/index.html
+
+画板（2017.12.21）：https://q15035395423.github.io/huaban/index
